@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+</head>
+<body>
+<p>Clubul Narnia va pune la dispozitie diverse cursuri educative si ateliere de creatie pentru copii si nu numai.</p>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>ACTIVITATI SAPTAMANA IN CURS</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+     <p>Daca ai hainute si nu le mai porti .Adule la noi.</p>
+    <p>Noi le vom evalua si primesti banuti pe ele.</p>
+    <h4>Daca iti place ideea nu regreta si ne recomanda si altora.</h4>
+    <h5>Clubul Narnia va pune la dispozitie diverse cursuri educative si ateliere de creatie pentru copii si nu numai.</h5>
+    <table data-role="table" data-mode="columntoggle" class="ui-responsive" id="myTable">
+      <thead>
+        <tr>
+          <th data-priority="6">ACTIVITATI</th>
+          <th>ACTIVITATI</th>
+          <th data-priority="1">LUNI</th>
+          <th data-priority="2">MIERCURI</th>
+          <th data-priority="3">JOI</th>
+          <th data-priority="4">SAMBATA</th>
+          <th data-priority="5">DUMINICA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>ORA 17</td>
+          <td>BALET</td>
+          <td>DESEN</td>
+          <td>BALET</td>
+          <td>PARTY TIME</td>
+          <td>PARTY TIME</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>ORA 18</td>
+          <td>GERMANA</td>
+          <td></td>
+          <td></td>
+          <td>10-14/15-19</td>
+          <td>10-14/15-19</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+      </tbody>
+    </table>
+	 <p> Cine suntem noi? </p>
+     <p>Clubul Narnia s-a nascut din dorinta mea fierbinte </p>
+     <p>de a fi parte dintr-un “organism” viu, de a ma gasi in mijlocul unui </p>
+     <p>suvoi sufletesc si emotional aflat in permanenta miscare si evolutie,</p>
+     <p> la care sa-mi fie dat sa particip cu tot ce am eu mai bun.</p>
+     <p>    De Sus.
+      </p>
+  </div>
+
+  <div data-role="footer">
+    <h1>CLUBUL NATY</h1>
+  </div>
+</div> 
+
+</body>
+</html>
